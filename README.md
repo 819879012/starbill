@@ -100,6 +100,12 @@ public class TagXml {
 }
 ```
 
+项目启动程序
+-
+* 在 startup 包下的 StartProgram.java 文件
+* 运行即可
+
+
 项目展示
 -
 
