@@ -46,8 +46,13 @@ public class DetailsPanel extends GraphPanel{
 	
 	public void setButtonImage() 
 	{
+<<<<<<< HEAD
 		GUIUtil.setButtonImage(detailsEarn, "add1.png", "收入明细查询");
 		GUIUtil.setButtonImage(detailsCost, "sub1.png", "支出明细查询");
+=======
+		GUIUtil.setButtonImage(detailsEarn, "add1.png", "收入明细");
+		GUIUtil.setButtonImage(detailsCost, "sub1.png", "支出明细");
+>>>>>>> 鏄熸槦璁拌处绯荤粺
 	}
 
 	public void setTextFont(Font font) 
