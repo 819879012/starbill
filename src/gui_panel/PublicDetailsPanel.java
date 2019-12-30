@@ -111,7 +111,10 @@ public class PublicDetailsPanel extends GraphPanel{
 	
 	@Override
 	public void setButtonImage() {
+<<<<<<< HEAD
 		// TODO Auto-generated method stub
+=======
+>>>>>>> æ˜Ÿæ˜Ÿè®°è´¦ç³»ç»Ÿ
 		GUIUtil.setButtonImage(changeButton, "add1.png", "ÐÞ¸Ä¼ÇÂ¼");
 		GUIUtil.setButtonImage(deleteButton, "sub1.png", "É¾³ý¼ÇÂ¼");
 		GUIUtil.setButtonImage(refreshButton, "refresh.png", "Ë¢ÐÂ¼ÇÂ¼");

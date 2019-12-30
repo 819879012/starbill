@@ -32,7 +32,11 @@ public class MainPanel extends GraphPanel{
     private JButton bBackup = new JButton();
     private JButton bRecover = new JButton();
     private CenterPanel workingPanel;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 星星记账系统
 	private MainPanel(String background) {
 		super(background);
         

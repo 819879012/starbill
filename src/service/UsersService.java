@@ -197,9 +197,15 @@ public class UsersService {
 			return;
 		int size = costRecordList.size();
 		int start = costRecordList.get(0).getId();
+<<<<<<< HEAD
 		for( int i = start,cnt = 0; cnt < size; i++,cnt++ )
 		{
 			if( costRecordDAO.getById(i) != null )
+=======
+		for( int i = start,cnt = 0; cnt < size; i--,cnt++ )
+		{
+			if( i>=0 && costRecordDAO.getById(i) != null )
+>>>>>>> 星星记账系统
 			{
 				if( costRecordDAO.getById(i).getUid() == nowUid )
 				{
@@ -220,9 +226,15 @@ public class UsersService {
 			return;
 		int size = incomeRecordList.size();
 		int start = incomeRecordList.get(0).getId();	
+<<<<<<< HEAD
 		for( int i = start,cnt = 0; cnt < size; i++,cnt++ )
 		{
 			if( incomeRecordDAO.getById(i)!= null )
+=======
+		for( int i = start,cnt = 0; cnt < size; i--,cnt++ )
+		{
+			if( i >= 0 && incomeRecordDAO.getById(i)!= null )
+>>>>>>> 星星记账系统
 			{
 				if( incomeRecordDAO.getById(i).getUid() == nowUid )
 				{
@@ -243,9 +255,15 @@ public class UsersService {
 			return;
 		int size = costPlanList.size();
 		int start = costPlanList.get(0).getId();		
+<<<<<<< HEAD
 		for( int i = start,cnt = 0; cnt < size; i++,cnt++ )
 		{
 			if( costPlanDao.getById(i) != null )
+=======
+		for( int i = start,cnt = 0; cnt < size; i--,cnt++ )
+		{
+			if( i >= 0 && costPlanDao.getById(i) != null )
+>>>>>>> 星星记账系统
 			{
 				if( costPlanDao.getById(i).getUid() == nowUid )
 				{
